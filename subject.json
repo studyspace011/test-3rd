@@ -1,0 +1,144 @@
+{
+  "विषय": [
+    {
+      "नाम": "History",
+      "अध्याय": [
+        {"नाम": "Ch-1", "chapter_name": "ईंटें, मनके तथा अस्थियाँ (हड़प्पा सभ्यता)", "csv_path": "subjects/History/Ch-1_ईंटें, मनके तथा अस्थियाँ (हड़प्पा सभ्यता).csv"},
+        {"नाम": "Ch-2", "chapter_name": "राजा, किसान और नगर (आरंभिक राज्य और अर्थव्यवस्थाएँ)", "csv_path": "subjects/History/Ch-2_राजा, किसान और नगर (आरंभिक राज्य और अर्थव्यवस्थाएँ).csv"},
+        {"नाम": "Ch-3", "chapter_name": "बंधुत्व, जाति तथा वर्ग (आरंभिक समाज)", "csv_path": "subjects/History/Ch-3_बंधुत्व, जाति तथा वर्ग (आरंभिक समाज).csv"},
+        {"नाम": "Ch-4", "chapter_name": "विचारक, विश्वास और इमारतें (सांस्कृतिक विकास)", "csv_path": "subjects/History/Ch-4_विचारक, विश्वास और इमारतें (सांस्कृतिक विकास).csv"},
+        {"नाम": "Ch-5", "chapter_name": "यात्रियों के नज़रिए (समाज के बारे में उनकी समझ)", "csv_path": "subjects/History/Ch-5_यात्रियों के नज़रिए (समाज के बारे में उनकी समझ).csv"},
+        {"नाम": "Ch-6", "chapter_name": "भक्ति-सूफ़ी परंपराएँ (धार्मिक विश्वासों में बदलाव और श्रद्धा ग्रंथ)", "csv_path": "subjects/History/Ch-6_भक्ति-सूफ़ी परंपराएँ (धार्मिक विश्वासों में बदलाव और श्रद्धा ग्रंथ).csv"},
+        {"नाम": "Ch-7", "chapter_name": "एक साम्राज्य की राजधानी: विजयनगर", "csv_path": "subjects/History/Ch-7_एक साम्राज्य की राजधानी: विजयनगर.csv"},
+        {"नाम": "Ch-8", "chapter_name": "किसान, ज़मींदार और राज्य (कृषि समाज और मुगल साम्राज्य)", "csv_path": "subjects/History/Ch-8_किसान, ज़मींदार और राज्य (कृषि समाज और मुगल साम्राज्य).csv"},
+        {"नाम": "Ch-9", "chapter_name": "राजा और विभिन्न वृत्तांत (मुगल दरबार)", "csv_path": "subjects/History/Ch-9_राजा और विभिन्न वृत्तांत (मुगल दरबार).csv"},
+        {"नाम": "Ch-10", "chapter_name": "उपनिवेशवाद और देहात (सरकारी अभिलेखों का अध्ययन)", "csv_path": "subjects/History/Ch-10_उपनिवेशवाद और देहात (सरकारी अभिलेखों का अध्ययन).csv"},
+        {"नाम": "Ch-11", "chapter_name": "विद्रोही और राज (1857 का आंदोलन और उसके व्याख्यान)", "csv_path": "subjects/History/Ch-11_विद्रोही और राज (1857 का आंदोलन और उसके व्याख्यान).csv"},
+        {"नाम": "Ch-12", "chapter_name": "औपनिवेशिक शहर (नगरीकरण, नगर-योजना और स्थापत्य)", "csv_path": "subjects/History/Ch-12_औपनिवेशिक शहर (नगरीकरण, नगर-योजना और स्थापत्य).csv"},
+        {"नाम": "Ch-13", "chapter_name": "महात्मा गाँधी और राष्ट्रीय आंदोलन (सविनय अवज्ञा और उससे आगे)", "csv_path": "subjects/History/Ch-13_महात्मा गाँधी और राष्ट्रीय आंदोलन (सविनय अवज्ञा और उससे आगे).csv"},
+        {"नाम": "Ch-14", "chapter_name": "विभाजन को समझना (राजनीति, स्मृतियाँ, अनुभव)", "csv_path": "subjects/History/Ch-14_विभाजन को समझना (राजनीति, स्मृतियाँ, अनुभव).csv"},
+        {"नाम": "Ch-15", "chapter_name": "संविधान का निर्माण (एक नए युग की शुरुआत)", "csv_path": "subjects/History/Ch-15_संविधान का निर्माण (एक नए युग की शुरुआत).csv"}
+      ]
+    },
+    {
+      "नाम": "Geography",
+      "अध्याय": [
+        {"नाम": "Ch-1", "chapter_name": "मानव भूगोल - प्रकृति एवं विषय क्षेत्र", "csv_path": "subjects/Geography/Ch-1_मानव भूगोल - प्रकृति एवं विषय क्षेत्र.csv"},
+        {"नाम": "Ch-2", "chapter_name": "विश्व जनसंख्या - वितरण, घनत्व और वृद्धि", "csv_path": "subjects/Geography/Ch-2_विश्व जनसंख्या - वितरण, घनत्व और वृद्धि.csv"},
+        {"नाम": "Ch-3", "chapter_name": "जनसंख्या संघटन", "csv_path": "subjects/Geography/Ch-3_जनसंख्या संघटन.csv"},
+        {"नाम": "Ch-4", "chapter_name": "मानव विकास", "csv_path": "subjects/Geography/Ch-4_मानव विकास.csv"},
+        {"नाम": "Ch-5", "chapter_name": "प्राथमिक क्रियाएँ", "csv_path": "subjects/Geography/Ch-5_प्राथमिक क्रियाएँ.csv"},
+        {"नाम": "Ch-6", "chapter_name": "द्वितीयक क्रियाएँ", "csv_path": "subjects/Geography/Ch-6_द्वितीयक क्रियाएँ.csv"},
+        {"नाम": "Ch-7", "chapter_name": "तृतीयक और चतुर्थ क्रियाकलाप", "csv_path": "subjects/Geography/Ch-7_तृतीयक और चतुर्थ क्रियाकलाप.csv"},
+        {"नाम": "Ch-8", "chapter_name": "परिवहन एवं संचार", "csv_path": "subjects/Geography/Ch-8_परिवहन एवं संचार.csv"},
+        {"नाम": "Ch-9", "chapter_name": "अंतर्राष्ट्रीय व्यापार", "csv_path": "subjects/Geography/Ch-9_अंतर्राष्ट्रीय व्यापार.csv"},
+        {"नाम": "Ch-10", "chapter_name": "मानव बस्ती", "csv_path": "subjects/Geography/Ch-10_मानव बस्ती.csv"},
+        {"नाम": "Ch-11", "chapter_name": "जनसंख्या - वितरण, घनत्व, वृद्धि और संघटन", "csv_path": "subjects/Geography/Ch-11_जनसंख्या - वितरण, घनत्व, वृद्धि और संघटन.csv"},
+        {"नाम": "Ch-12", "chapter_name": "प्रवास - प्रकार, कारण और परिणाम", "csv_path": "subjects/Geography/Ch-12_प्रवास - प्रकार, कारण और परिणाम.csv"},
+        {"नाम": "Ch-13", "chapter_name": "मानव विकास", "csv_path": "subjects/Geography/Ch-13_मानव विकास.csv"},
+        {"नाम": "Ch-14", "chapter_name": "मानव बस्तियाँ", "csv_path": "subjects/Geography/Ch-14_मानव बस्तियाँ.csv"},
+        {"नाम": "Ch-15", "chapter_name": "भू-संसाधन तथा कृषि", "csv_path": "subjects/Geography/Ch-15_भू-संसाधन तथा कृषि.csv"},
+        {"नाम": "Ch-16", "chapter_name": "जल संसाधन", "csv_path": "subjects/Geography/Ch-16_जल संसाधन.csv"},
+        {"नाम": "Ch-17", "chapter_name": "खनिज तथा ऊर्जा संसाधन", "csv_path": "subjects/Geography/Ch-17_खनिज तथा ऊर्जा संसाधन.csv"},
+        {"नाम": "Ch-18", "chapter_name": "निर्माण उद्योग", "csv_path": "subjects/Geography/Ch-18_निर्माण उद्योग.csv"},
+        {"नाम": "Ch-19", "chapter_name": "भारत के संदर्भ में नियोजन और सतत पोषणीय विकास", "csv_path": "subjects/Geography/Ch-19_भारत के संदर्भ में नियोजन और सतत पोषणीय विकास.csv"},
+        {"नाम": "Ch-20", "chapter_name": "परिवहन तथा संचार", "csv_path": "subjects/Geography/Ch-20_परिवहन तथा संचार.csv"},
+        {"नाम": "Ch-21", "chapter_name": "अंतर्राष्ट्रीय व्यापार", "csv_path": "subjects/Geography/Ch-21_अंतर्राष्ट्रीय व्यापार.csv"},
+        {"नाम": "Ch-22", "chapter_name": "भौगोलिक परिप्रेक्ष्य में चयनित कुछ मुद्दे एवं समस्याएँ", "csv_path": "subjects/Geography/Ch-22_भौगोलिक परिप्रेक्ष्य में चयनित कुछ मुद्दे एवं समस्याएँ.csv"}
+      ]
+    },
+    {
+      "नाम": "Home Science",
+      "अध्याय": [
+        {"नाम": "Ch-1", "chapter_name": "पोषण", "csv_path": "subjects/Home Science/Ch-1_पोषण.csv"},
+        {"नाम": "Ch-2", "chapter_name": "गर्भावस्था एवं स्तनपान", "csv_path": "subjects/Home Science/Ch-2_गर्भावस्था एवं स्तनपान.csv"},
+        {"नाम": "Ch-3", "chapter_name": "शैशवावस्था में विकास (0-3 वर्ष)", "csv_path": "subjects/Home Science/Ch-3_शैशवावस्था में विकास (0-3 वर्ष).csv"},
+        {"नाम": "Ch-4", "chapter_name": "बाल्यावस्था में विकास (3-12 वर्ष)", "csv_path": "subjects/Home Science/Ch-4_बाल्यावस्था में विकास (3-12 वर्ष).csv"},
+        {"नाम": "Ch-5", "chapter_name": "किशोरावस्था", "csv_path": "subjects/Home Science/Ch-5_किशोरावस्था.csv"},
+        {"नाम": "Ch-6", "chapter_name": "परिवार एवं स्वास्थ्य", "csv_path": "subjects/Home Science/Ch-6_परिवार एवं स्वास्थ्य.csv"},
+        {"नाम": "Ch-7", "chapter_name": "रोगों से बचाव एवं नियंत्रण", "csv_path": "subjects/Home Science/Ch-7_रोगों से बचाव एवं नियंत्रण.csv"},
+        {"नाम": "Ch-8", "chapter_name": "आहार नियोजन", "csv_path": "subjects/Home Science/Ch-8_आहार नियोजन.csv"},
+        {"नाम": "Ch-9", "chapter_name": "खाद्य पदार्थों का वर्गीकरण", "csv_path": "subjects/Home Science/Ch-9_खाद्य पदार्थों का वर्गीकरण.csv"},
+        {"नाम": "Ch-10", "chapter_name": "खाद्य प्रसंस्करण एवं भंडारण", "csv_path": "subjects/Home Science/Ch-10_खाद्य प्रसंस्करण एवं भंडारण.csv"},
+        {"नाम": "Ch-11", "chapter_name": "मिलावट", "csv_path": "subjects/Home Science/Ch-11_मिलावट.csv"},
+        {"नाम": "Ch-12", "chapter_name": "वस्त्र विज्ञान", "csv_path": "subjects/Home Science/Ch-12_वस्त्र विज्ञान.csv"},
+        {"नाम": "Ch-13", "chapter_name": "वस्त्रों का चयन, खरीद एवं देखभाल", "csv_path": "subjects/Home Science/Ch-13_वस्त्रों का चयन, खरीद एवं देखभाल.csv"},
+        {"नाम": "Ch-14", "chapter_name": "घरेलू बजट", "csv_path": "subjects/Home Science/Ch-14_घरेलू बजट.csv"},
+        {"नाम": "Ch-15", "chapter_name": "उपभोक्ता शिक्षा", "csv_path": "subjects/Home Science/Ch-15_उपभोक्ता शिक्षा.csv"},
+        {"नाम": "Ch-16", "chapter_name": "संसाधन प्रबंधन", "csv_path": "subjects/Home Science/Ch-16_संसाधन प्रबंधन.csv"},
+        {"नाम": "Ch-17", "chapter_name": "ऊर्जा संरक्षण", "csv_path": "subjects/Home Science/Ch-17_ऊर्जा संरक्षण.csv"},
+        {"नाम": "Ch-18", "chapter_name": "पर्यावरण संरक्षण", "csv_path": "subjects/Home Science/Ch-18_पर्यावरण संरक्षण.csv"},
+        {"नाम": "Ch-19", "chapter_name": "गृह सज्जा एवं आंतरिक डिजाइन", "csv_path": "subjects/Home Science/Ch-19_गृह सज्जा एवं आंतरिक डिजाइन.csv"},
+        {"नाम": "Ch-20", "chapter_name": "बाल कल्याण एवं सुरक्षा", "csv_path": "subjects/Home Science/Ch-20_बाल कल्याण एवं सुरक्षा.csv"},
+        {"नाम": "Ch-21", "chapter_name": "बुजुर्गों की देखभाल", "csv_path": "subjects/Home Science/Ch-21_बुजुर्गों की देखभाल.csv"},
+        {"नाम": "Ch-22", "chapter_name": "आपातकालीन प्रबंधन", "csv_path": "subjects/Home Science/Ch-22_आपातकालीन प्रबंधन.csv"}
+      ]
+    },
+    {
+      "नाम": "Urdu",
+      "अध्याय": [
+        {"नाम": "Ch-1", "chapter_name": "نذیر احمد کی کہانی، کچھ میری اور کچھ اُن کی زبانی", "csv_path": "subjects/Urdu/Ch-1_نذیر احمد کی کہانی، کچھ میری اور کچھ اُن کی زبانی.csv"},
+        {"नाम": "Ch-2", "chapter_name": "مٹی کا تیل", "csv_path": "subjects/Urdu/Ch-2_مٹی کا تیل.csv"},
+        {"नाम": "Ch-3", "chapter_name": "باز پرانے لفظوں کی نئی تحقیق", "csv_path": "subjects/Urdu/Ch-3_باز پرانے لفظوں کی نئی تحقیق.csv"},
+        {"नाम": "Ch-4", "chapter_name": "انشائیہ کیا ہے", "csv_path": "subjects/Urdu/Ch-4_انشائیہ کیا ہے.csv"},
+        {"नाम": "Ch-5", "chapter_name": "ہجرت", "csv_path": "subjects/Urdu/Ch-5_ہجرت.csv"},
+        {"नाम": "Ch-6", "chapter_name": "بھولا", "csv_path": "subjects/Urdu/Ch-6_بھولا.csv"},
+        {"नाम": "Ch-7", "chapter_name": "عندلیب", "csv_path": "subjects/Urdu/Ch-7_عندلیب.csv"},
+        {"नाम": "Ch-8", "chapter_name": "پرامس", "csv_path": "subjects/Urdu/Ch-8_پرامس.csv"},
+        {"नाम": "Ch-9", "chapter_name": "ابراہیم سکہ", "csv_path": "subjects/Urdu/Ch-9_ابراہیم سکہ.csv"},
+        {"नाम": "Ch-10", "chapter_name": "غبارِ خاطر (تین خطوط)", "csv_path": "subjects/Urdu/Ch-10_غبارِ خاطر (تین خطوط).csv"},
+        {"नाम": "Ch-11", "chapter_name": "غزل (دیدِ حرفی)", "csv_path": "subjects/Urdu/Ch-11_غزل (دیدِ حرفی).csv"},
+        {"नाम": "Ch-12", "chapter_name": "غزل (نزهتِ نظر)", "csv_path": "subjects/Urdu/Ch-12_غزل (نزهتِ نظر).csv"},
+        {"नाम": "Ch-13", "chapter_name": "مرثیہ (غالب کی موت پر)", "csv_path": "subjects/Urdu/Ch-13_مرثیہ (غالب کی موت پر).csv"},
+        {"नाम": "Ch-14", "chapter_name": "نظم (برقِ کلیسا)", "csv_path": "subjects/Urdu/Ch-14_نظم (برقِ کلیسا).csv"},
+        {"नाम": "Ch-15", "chapter_name": "نظم (میرا سفر)", "csv_path": "subjects/Urdu/Ch-15_نظم (میرا سفر).csv"},
+        {"नाम": "Ch-16", "chapter_name": "نظم (ہم نہیں جانتے)", "csv_path": "subjects/Urdu/Ch-16_نظم (ہم نہیں جانتے).csv"},
+        {"नाम": "Ch-17", "chapter_name": "قطعات (شہرِ آشوب)", "csv_path": "subjects/Urdu/Ch-17_قطعات (شہرِ آشوب).csv"},
+        {"नाम": "Ch-18", "chapter_name": "رباعیات", "csv_path": "subjects/Urdu/Ch-18_رباعیات.csv"},
+        {"नाम": "Ch-19", "chapter_name": "گیت (آج کی بات)", "csv_path": "subjects/Urdu/Ch-19_گیت (آج کی بات).csv"},
+        {"नाम": "Ch-20", "chapter_name": "نظم (سفرنامہ)", "csv_path": "subjects/Urdu/Ch-20_نظم (سفرنامہ).csv"},
+        {"नाम": "Ch-21", "chapter_name": "نظم (مستقبل)", "csv_path": "subjects/Urdu/Ch-21_نظم (مستقبل).csv"},
+        {"नाम": "Ch-22", "chapter_name": "غزل (عشق کی چوٹ)", "csv_path": "subjects/Urdu/Ch-22_غزل (عشق کی چوٹ).csv"},
+        {"नाम": "Ch-23", "chapter_name": "غزل (حرارت)", "csv_path": "subjects/Urdu/Ch-23_غزل (حرارت).csv"},
+        {"नाम": "Ch-24", "chapter_name": "غزل (دریا)", "csv_path": "subjects/Urdu/Ch-24_غزل (دریا).csv"}
+      ]
+    },
+    {
+      "नाम": "English",
+      "अध्याय": [
+        {"नाम": "Ch-1", "chapter_name": "Indian Civilization and Culture", "csv_path": "subjects/English/Ch-1_Indian Civilization and Culture.csv"},
+        {"नाम": "Ch-2", "chapter_name": "Bharat is My Home", "csv_path": "subjects/English/Ch-2_Bharat is My Home.csv"},
+        {"नाम": "Ch-3", "chapter_name": "A Pinch of Snuff", "csv_path": "subjects/English/Ch-3_A Pinch of Snuff.csv"},
+        {"नाम": "Ch-4", "chapter_name": "I Have a Dream", "csv_path": "subjects/English/Ch-4_I Have a Dream.csv"},
+        {"नाम": "Ch-5", "chapter_name": "Ideas That Have Helped Mankind", "csv_path": "subjects/English/Ch-5_Ideas That Have Helped Mankind.csv"},
+        {"नाम": "Ch-6", "chapter_name": "The Artist", "csv_path": "subjects/English/Ch-6_The Artist.csv"},
+        {"नाम": "Ch-7", "chapter_name": "A Child is Born", "csv_path": "subjects/English/Ch-7_A Child is Born.csv"},
+        {"नाम": "Ch-8", "chapter_name": "How Free is the Press", "csv_path": "subjects/English/Ch-8_How Free is the Press.csv"},
+        {"नाम": "Ch-9", "chapter_name": "The Earth", "csv_path": "subjects/English/Ch-9_The Earth.csv"},
+        {"नाम": "Ch-10", "chapter_name": "India Through a Traveller's Eye", "csv_path": "subjects/English/Ch-10_India Through a Traveller's Eye.csv"},
+        {"नाम": "Ch-11", "chapter_name": "A Marriage Proposal", "csv_path": "subjects/English/Ch-11_A Marriage Proposal.csv"},
+        {"नाम": "Ch-12", "chapter_name": "Sweetest Love I Do Not Go", "csv_path": "subjects/English/Ch-12_Sweetest Love I Do Not Go.csv"},
+        {"नाम": "Ch-13", "chapter_name": "Song of Myself", "csv_path": "subjects/English/Ch-13_Song of Myself.csv"},
+        {"नाम": "Ch-14", "chapter_name": "Now The Leaves Are Falling Fast", "csv_path": "subjects/English/Ch-14_Now The Leaves Are Falling Fast.csv"},
+        {"नाम": "Ch-15", "chapter_name": "Ode to Autumn", "csv_path": "subjects/English/Ch-15_Ode to Autumn.csv"},
+        {"नाम": "Ch-16", "chapter_name": "An Epitaph", "csv_path": "subjects/English/Ch-16_An Epitaph.csv"},
+        {"नाम": "Ch-17", "chapter_name": "The Soldier", "csv_path": "subjects/English/Ch-17_The Soldier.csv"},
+        {"नाम": "Ch-18", "chapter_name": "Macavity: The Mystery Cat", "csv_path": "subjects/English/Ch-18_Macavity: The Mystery Cat.csv"},
+        {"नाम": "Ch-19", "chapter_name": "Fire Hymn", "csv_path": "subjects/English/Ch-19_Fire Hymn.csv"},
+        {"नाम": "Ch-20", "chapter_name": "Snake", "csv_path": "subjects/English/Ch-20_Snake.csv"},
+        {"नाम": "Ch-21", "chapter_name": "My Grand Mother's House", "csv_path": "subjects/English/Ch-21_My Grand Mother's House.csv"}
+      ]
+    },
+    {
+      "नाम": "Story of English",
+      "अध्याय": [
+        {"नाम": "Ch-1", "chapter_name": "Old English", "csv_path": "subjects/Story of English/Ch-1_Old English.csv"},
+        {"नाम": "Ch-2", "chapter_name": "Middle English", "csv_path": "subjects/Story of English/Ch-2_Middle English.csv"},
+        {"नाम": "Ch-3", "chapter_name": "Modern English", "csv_path": "subjects/Story of English/Ch-3_Modern English.csv"},
+        {"नाम": "Ch-4", "chapter_name": "English as a World Language", "csv_path": "subjects/Story of English/Ch-4_English as a World Language.csv"},
+        {"नाम": "Ch-5", "chapter_name": "Global English", "csv_path": "subjects/Story of English/Ch-5_Global English.csv"},
+        {"नाम": "Ch-6", "chapter_name": "The Future of English", "csv_path": "subjects/Story of English/Ch-6_The Future of English.csv"}
+      ]
+    }
+  ]
+}

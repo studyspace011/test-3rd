@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics | Firoz Self Objective Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+</head>
+<body class="screen active" id="analytics-screen-body">
+    <div class="container">
+        <h2>📈 Performance Analytics</h2>
+        
+        <div id="analytics-data-content">
+            <div class="analytics-summary">
+                <div class="summary-card">
+                    <h3>Total Attempts</h3>
+                    <div class="summary-value" id="total-tests">0</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Average Score</h3>
+                    <div class="summary-value" id="average-score">0%</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Best Score</h3>
+                    <div class="summary-value" id="best-score">0%</div>
+                </div>
+            </div>
+
+            <div class="charts-container">
+                <div class="chart-section">
+                    <h3>Performance by Subject</h3>
+                    <canvas id="subjectPerformanceChart"></canvas>
+                </div>
+                <div class="chart-section">
+                    <h3>Score Distribution (Last 10 Tests)</h3>
+                    <canvas id="scoreDistributionChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="recent-tests">
+                <h3>Recent Tests Summary</h3>
+                <div id="recent-tests-list" class="recent-tests-list">
+                    </div>
+            </div>
+        </div>
+        
+        <div id="no-history-message" class="hidden" style="text-align: center; padding: 50px;">
+            <p style="font-size: 1.2rem; color: #fff;">No test records found yet.</p>
+        </div>
+
+        <div class="analytics-actions">
+            <button id="back-from-analytics" class="secondary-btn">🏠 Back to Home</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
