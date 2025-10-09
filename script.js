@@ -127,9 +127,9 @@ class MCQTestApp {
 
     updateWelcomeMessage() {
         if (this.userName) {
-            this.welcomeMessage.innerHTML = `👋 Hello, <span style="color: #f1c40f;">${this.userName}</span>`;
+            this.welcomeMessage.innerHTML = `👋 Hlw, <span style="color: #f1c40f;">${this.userName}</span>`;
         } else {
-            this.welcomeMessage.textContent = '📝 Firoz Self Objective Test';
+            this.welcomeMessage.textContent = '📝 Class 12th Self Objective Test';
         }
     }
 
@@ -813,4 +813,5 @@ window.addEventListener('beforeinstallprompt', (e) => {
     deferredPrompt = e;
 
 });
+
 
