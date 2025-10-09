@@ -481,6 +481,8 @@ class MCQTestApp {
         localStorage.setItem('test_history', JSON.stringify(history));
     }
 
+   // ... (rest of the code)
+
     showResultsScreen() {
         this.hideAllScreens();
         this.screens.results.classList.add('active');
@@ -493,7 +495,22 @@ class MCQTestApp {
         this.resultChapter.textContent = this.currentResult.chapter;
 
         this.displayQuestionsReview();
+
+        // --- NEW CODE ADDED HERE for Dynamic Coloring ---
+        const percentage = this.currentResult.percentage;
+        // Remove existing classes to reset the color
+        this.percentageElement.classList.remove('excellent', 'poor'); 
+
+        // Apply dynamic styling based on percentage
+        if (percentage >= 80) {
+            this.percentageElement.classList.add('excellent'); // Green for high score
+        } else if (percentage < 40) {
+            this.percentageElement.classList.add('poor');      // Red for low score
+        }
+        // --- END NEW CODE ---
     }
+    
+// ... (rest of the code)
 
     displayQuestionsReview() {
         this.questionsReview.innerHTML = '';
@@ -796,3 +813,4 @@ window.addEventListener('beforeinstallprompt', (e) => {
     deferredPrompt = e;
 
 });
+
