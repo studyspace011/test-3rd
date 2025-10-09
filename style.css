@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* Keeping the general transition for smooth effects */
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
 }
 
@@ -225,7 +226,140 @@ h1 {
     flex: 1;
 }
 
-/* Results and History/Analytics styles remain similar to previous version for function */
+/* --- Results Screen (Detailed Review) Improvement --- */
+
+.detailed-results {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.question-review {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.question-review:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.question-review h4 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Correct Answer Styling */
+.question-review.correct {
+    border-left: 6px solid #27ae60; /* Dark Green Border */
+    background-color: #e8f9ed; /* Very Light Green Background */
+}
+
+/* Incorrect Answer Styling (Key Focus Area) */
+.question-review.incorrect {
+    border-left: 6px solid #e74c3c; /* Red Border */
+    background-color: #fceceb; /* Very Light Red Background */
+}
+
+/* Specific Answer Line Styles */
+.user-answer, .correct-answer {
+    padding: 8px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 0.95rem;
+}
+
+.user-answer {
+    background: #ecf0f1;
+    color: #34495e;
+}
+
+.correct-answer {
+    background: #d4edda; /* Light green background for correct answer */
+    color: #155724;
+    font-weight: bold;
+    border: 1px dashed #c3e6cb;
+}
+
+/* Highlighting User's Wrong Answer */
+.question-review.incorrect .user-answer {
+    background: #f8d7da; /* Light Red/Pink */
+    color: #721c24; /* Dark Red Text */
+    font-weight: bold;
+    border: 1px dashed #f5c6cb;
+}
+
+/* --- History Screen Improvement --- */
+
+.history-list {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.history-item {
+    background: #ffffff; /* White background */
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    border: 1px solid #eee;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.history-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.history-item h4 {
+    margin-bottom: 5px;
+    color: #3498db; /* Primary Blue for Subject/Chapter */
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.history-stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    color: #555;
+    margin: 8px 0;
+    padding: 0 5px;
+}
+
+.history-stats span strong {
+    font-weight: 700;
+}
+
+.history-date {
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 5px;
+    border-top: 1px dashed #eee;
+    padding-top: 8px;
+    text-align: right;
+}
+
+.history-item-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: flex-end; /* Align buttons to the right */
+}
+
+
+/* --- Analytics Styles (Unchanged) --- */
 
 .analytics-summary {
     display: grid;
