@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analytics | Firoz Self Objective Test</title>
+    <title>Analytics | Self MCQ Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
@@ -34,20 +38,20 @@
                     <canvas id="subjectPerformanceChart"></canvas>
                 </div>
                 <div class="chart-section">
-                    <h3>Score Distribution (Last 10 Tests)</h3>
+                    <h3>Score Trend (Last 10 Tests)</h3>
                     <canvas id="scoreDistributionChart"></canvas>
                 </div>
             </div>
             
             <div class="recent-tests">
                 <h3>Recent Tests Summary</h3>
-                <div id="recent-tests-list" class="recent-tests-list">
+                <div id="recent-tests-list" class="history-list">
                     </div>
             </div>
         </div>
         
-        <div id="no-history-message" class="hidden" style="text-align: center; padding: 50px;">
-            <p style="font-size: 1.2rem; color: #fff;">No test records found yet.</p>
+        <div id="no-history-message" class="hidden" style="text-align: center; background: rgba(255,255,255,0.1); padding: 50px; border-radius: 15px;">
+            <p style="font-size: 1.2rem; color: #fff;">No test records found. Take a test to see your analytics!</p>
         </div>
 
         <div class="analytics-actions">
@@ -56,5 +60,26 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        MathJax = {
+            tex: {
+                // Configure MathJax to recognize single dollar signs ($) for inline math
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            // Setup a global function to easily re-render math content dynamically
+            startup: {
+                typeset: false // Prevent initial auto-render
+            }
+        };
+    
+        window.renderMath = function() {
+            if (typeof MathJax !== 'undefined') {
+                // Use typesetPromise to ensure rendering happens after content updates
+                MathJax.typesetPromise();
+            }
+        };
+    </script>
 </body>
 </html>
