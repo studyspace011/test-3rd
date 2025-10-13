@@ -525,7 +525,8 @@ class MCQTestApp {
             window.location.href = 'index.html';
         });
         
-        const history = JSON.parse(localStorage.getItem(this.storagePrefix + 'test_history') || '[]');
+        // Use storage helper to get history
+        const history = JSON.parse(this.getStorageItem('test_history') || '[]'); 
         if (history.length === 0) {
             document.getElementById('analytics-data-content').classList.add('hidden');
             document.getElementById('no-history-message').classList.remove('hidden');
@@ -539,13 +540,15 @@ class MCQTestApp {
         document.getElementById('average-score').textContent = `${avgScore}%`;
         document.getElementById('best-score').textContent = `${bestScore}%`;
 
-        // Subject Performance Chart
+        // Subject Performance Chart (Bar Chart)
         const subjectStats = history.reduce((acc, { subject, percentage }) => {
             acc[subject] = acc[subject] || { total: 0, count: 0 };
             acc[subject].total += percentage;
             acc[subject].count++;
             return acc;
         }, {});
+        
+        // FIX 1: Change backgroundColor from #fff to a vibrant theme color
         new Chart(document.getElementById('subjectPerformanceChart'), {
             type: 'bar',
             data: {
@@ -553,14 +556,23 @@ class MCQTestApp {
                 datasets: [{
                     label: 'Average Score %',
                     data: Object.values(subjectStats).map(s => Math.round(s.total / s.count)),
-                    backgroundColor: '#fff',
+                    backgroundColor: '#2ecc71', // Vibrant Green for bars
+                    borderColor: '#27ae60',
+                    borderWidth: 1
                 }]
             },
-            options: { scales: { y: { beginAtZero: true, max: 100 } } }
+            options: { 
+                scales: { 
+                    y: { beginAtZero: true, max: 100, grid: { color: 'rgba(255, 255, 255, 0.2)' } }, // Added grid color fix
+                    x: { grid: { color: 'rgba(255, 255, 255, 0.2)' } }
+                } 
+            }
         });
 
-        // Score Trend Chart
+        // Score Trend Chart (Line Chart)
         const recentHistory = history.slice(0, 10).reverse();
+        
+        // FIX 2: Change borderColor and backgroundColor to theme colors
         new Chart(document.getElementById('scoreDistributionChart'), {
             type: 'line',
             data: {
@@ -568,22 +580,26 @@ class MCQTestApp {
                 datasets: [{
                     label: 'Score %',
                     data: recentHistory.map(r => r.percentage),
-                    borderColor: '#fff',
-                    backgroundColor: 'rgba(255,255,255,0.2)',
+                    borderColor: '#3498db', // Vibrant Blue for the line
+                    backgroundColor: 'rgba(52, 152, 219, 0.4)', // Transparent Blue fill
                     fill: true,
                     tension: 0.2
                 }]
             },
-            options: { scales: { y: { beginAtZero: true, max: 100 } } }
+            options: { 
+                scales: { 
+                    y: { beginAtZero: true, max: 100, grid: { color: 'rgba(255, 255, 255, 0.2)' } }, // Added grid color fix
+                    x: { grid: { color: 'rgba(255, 255, 255, 0.2)' } }
+                } 
+            }
         });
 
-        // Display Recent Tests Summary
+        // Display Recent Tests Summary (No chart color change needed here)
         const list = document.getElementById('recent-tests-list');
         list.innerHTML = '';
         history.slice(0, 5).forEach(result => {
              list.innerHTML += `<div class="history-item"><h4>${result.subject} - ${result.chapter}</h4><div class="history-stats"><span>Score: <strong>${result.score}/${result.total}</strong></span><span><strong>${result.percentage}%</strong></span></div><div class="history-date">${new Date(result.date).toLocaleDateString()}</div></div>`;
         });
-    }
 
     // --- Navigation & Helpers ---
     showScreen(screenName) {
@@ -635,3 +651,4 @@ document.addEventListener('DOMContentLoaded', () => {
     new MCQTestApp();
 
 });
+
